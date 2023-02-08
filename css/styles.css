@@ -1,0 +1,76 @@
+body{
+    font-family: "Montserrat";
+}
+
+#title {
+    background-color:  whitesmoke;
+}
+
+h1 {
+    font-family: "Montserrat-black";  font-size: 3.5rem; line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.nav-item {
+    position: relative; left: 90%;
+}
+
+.navbar-brand
+{
+    font-family: 'Lobster', cursive;
+    font-size: xx-large;
+}
+
+.navbar {
+    padding: 0 0 5rem;
+}
+
+.firstbuttons {
+    margin: 5% 3% 5% 0%;
+    
+}
+@media  (max-width :1028px) {
+    .second-container{
+        text-align: center;
+    }
+    .second-image {
+      position: static;
+    }
+}
+
+.second-container {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.3fr 1.7fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "navbar navbar"
+      "image details";
+
+      background-color: #EEE3CB;
+      padding: 3% 6%;
+  }
+  
+  .navbar { grid-area: navbar; }
+  
+  .image { grid-area: image; 
+margin-top: 20%;
+}
+  
+  .details { grid-area: details;
+    margin-top: 30%;
+   
+    margin-bottom: 20%;
+}
+
+.navbar-text {
+    margin-left: 200%;
+}
+  
+h3 {
+    font-size: 2.2rem;
+    font-family: "Montserrat-bold";
+}

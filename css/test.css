@@ -1,0 +1,113 @@
+body{
+    font-family: "Montserrat";
+}
+
+#title {
+    background-color:  whitesmoke;
+}
+
+h1 {
+    font-family: "Montserrat-black";  font-size: 3.5rem; line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.nav-item {
+    position: relative; left: 90%;
+}
+
+.navbar-brand
+{
+    font-family: 'Lobster', cursive;
+    font-size: xx-large;
+}
+
+.navbar {
+    padding: 0 0 5rem;
+}
+
+.firstbuttons {
+    margin: 5% 3% 5% 0%;
+    
+}
+
+.second-page {
+    background-color: #EEE3CB;
+    padding: 1% 10%;
+}
+
+.second-details {
+    margin-top: 5%;
+}
+
+.navbar-text {
+    margin-left: 50%;
+}
+
+@media  (max-width :1028px) {
+    .second-page{
+        text-align: center;
+    }
+.second-image {
+    position: static;
+}  
+
+.third-page{
+    text-align: center;
+}
+
+#contact {
+    text-align: center;
+}
+
+#title {
+    text-align: center;
+}
+}
+
+.third-page {
+    background-color: #F9F2ED;
+   
+    padding: 1% 10%;
+    
+}
+
+.thirdpage-row1 {
+    margin-top: 8%;
+}
+
+h3 {
+    font-size: 2.2rem;
+    font-family: "Montserrat-bold";
+}
+
+
+#contact {
+    padding: 5% 15%;
+    text-align: center;
+}
+
+.socialmedia-icons {
+    color: black;
+    margin-right: 15px;
+}
+
+.socialmedia-icons :hover {
+    color: burlywood;
+}
+
+p  {
+    font-size: 1rem;
+    color: #8f8f8f;
+    font-family: "Montserrat";
+    }
+
+    .copyright-brand {
+        color: #8f8f8f;
+    }
+
+    .copyright-brand :hover {
+        color: black;
+    }
